@@ -1,0 +1,237 @@
+h1 {
+  color: #D28CF1;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+    overflow: hidden;
+	background:#E5E5E5;
+}
+
+header{
+	width: 98%;
+}
+
+.navegacion{
+	width: 1440px;
+	margin: 0px auto;
+	background: #D28CF1;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	font-family: 'comic sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #fbceb1;
+	transition: all 0.9s;
+}
+
+
+.submenu{
+	position: absolute;
+	background: #D28CF1;
+	width: 140%;
+	visibility: hidden;
+	opacity: 1;
+	transition: opacity 0.1s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: white;
+	font-family: 'comic sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.logo li a:hover{
+	color: yellow;
+	transition: all 0.9s;
+
+}
+.int{
+	color: #D28CF1;
+
+}
+
+.nayeon{
+
+	margin-top: 10	0px;
+	margin-left: 0px;
+}
+
+.parrafo{
+
+	margin-top: 130px;
+	margin-left: 0px;
+
+}
+.tgif{
+	width:450px;
+	height:300px;
+	margin-left: 10px;
+}
+html,body{
+  overflow-x: hidden;
+  color:black;
+  font-family:'Opens Sans',helvetica;  
+  height:117%;
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.twicelogo{
+	height: 300px;
+	width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic);
+
+body{
+  background: #E5E5E5;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  height: 80%;
+  align: center;
+  margin-left: 570px;
+  
+}
+.intro{
+ width: 350px;
+ height: 80px;
+ margin-top:200px;
+}
+.text1{
+  color: white;
+  position:relative;
+  text-shadow:1.5px 1.5px #3D88A1;
+  font-size: 60px;
+  z-index:1;
+}
+.intro .heart{ 
+  width: 40%;
+  float:right;
+  z-index:2;
+  margin-top:-100px;
+  margin-right: 19px;
+}
+span:hover {
+  color:#3D88A1;
+  display:block;
+}
+span:active {
+  color:red;
+  text-shadow:1.5px 1.5px black;
+}
+.text2 {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 40px;
+  margin-top:-120px;
+  margin-left: 7px;
+  display:none;
+}
+.heart-rain {
+  position: absolute;
+  color: pink;
+  opacity: .5;
+  font-size: 22px;
+  -webkit-animation: falling 6s infinite linear;
+  animation: falling 6s infinite linear;
+}
+.heart-rain:nth-of-type(1) {
+  bottom: 1200px;
+  left: 2%;
+}
+.heart-rain:nth-of-type(2) {
+  bottom: 500px;
+  left: 15%;
+}
+.heart-rain:nth-of-type(3) {
+  bottom: 1000px;
+  left: 50%;
+}
+.heart-rain:nth-of-type(4) {
+  bottom: 475px;
+  left: 80%;
+}
+.heart-rain:nth-of-type(5) {
+  bottom: 600px;
+  left: 40%;
+}
+.heart-rain:nth-of-type(6) {
+  bottom: 1200px;
+  left: 60%;
+}
+.heart-rain:nth-of-type(7) {
+    bottom: 1400px;
+    left: 60;
+}
+
+@-webkit-keyframes falling {
+  0% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    bottom: -25px;
+    transform: rotate(-360deg);
+  }
+}
+@keyframes falling {
+  0% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    bottom: -25px;
+    transform: rotate(-360deg);
+  }
+}
